@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+// /******************************
+// Baseフォルダ
+// ******************************/
+
+// リセットcss
+@use "./base/_reset.scss";
+
+@use "./base/_meta.scss";
+
+// 変数
+@use "./base/_variables.scss";
+
+// mixins
+@use "./base/_mixins.scss";
+
+
+// /******************************
+// Componentsフォルダ
+// ******************************/
+
+// /***************
+// Parts
+// ***************/
+
+// サイズ、余白などの便利class
+// @use "./layout/_utils.scss";
+
+// レイアウト
+// @use "./components/parts/_layouts.scss";
+
+// ボタン
+// @use "./components/parts/_buttons.scss";
+
+// ラベル、見出し
+@use "./components/parts/_labels.scss";
+
+
+// /***************
+// Common
+// ***************/
+
+// へッダー
+@use "./components/common/_header.scss";
+
+// フッター
+@use "./components/common/_footer.scss";
+
+// navメニュー
+@use "./components/common/_menu.scss";
+
+// セクション分け
+// @use "./components/common/_section.scss";
+
+// /***************
+// その他
+// ***************/
+
+// カルーセル
+// @use "./components/_imageslide.scss";
+
+
+// /******************************
+// Pages
+// ******************************/
+
+// どのページか分かりやすいファイル名に
+@use "./pages/_index.scss";
+
+// /******************************
+// Utils
+// ******************************/
